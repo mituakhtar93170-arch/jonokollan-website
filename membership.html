@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>সদস্যপদ আবেদন - জনকল্যাণ সমিতি</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" class="logo-img" alt="লোগো">
+      <span>জনকল্যাণ সমিতি</span>
+    </div>
+    <nav>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul id="menu">
+        <li><a href="index.html">হোম</a></li>
+        <li><a href="about.html">আমাদের সম্পর্কে</a></li>
+        <li><a href="notification.html">নোটিফিকেশন</a></li>
+        <li><a href="committee.html">দাফন কমিটি</a></li>
+        <li><a href="gallery.html">গ্যালারি</a></li>
+        <li><a href="membership.html" class="active">সদস্যপদ</a></li>
+        <li><a href="contact.html">যোগাযোগ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>📝 সদস্যপদ আবেদন</h2>
+    <form>
+      <input type="text" placeholder="নাম" required><br><br>
+      <input type="text" placeholder="ঠিকানা" required><br><br>
+      <input type="tel" placeholder="মোবাইল" required><br><br>
+      <input type="email" placeholder="ইমেইল" required><br><br>
+      <input type="text" placeholder="পেশা"><br><br>
+      <textarea placeholder="আগ্রহ"></textarea><br><br>
+      <button type="submit">আবেদন করুন</button>
+    </form>
+
+    <h3>💚 দান করুন</h3>
+    <img src="images/qr.png" alt="QR" class="qr">
+    <button onclick="makePayment()">অনলাইনে দান করুন</button>
+  </section>
+</body>
+</html>
